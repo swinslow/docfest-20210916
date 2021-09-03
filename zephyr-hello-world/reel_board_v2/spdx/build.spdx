@@ -1,0 +1,1139 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: build
+DocumentNamespace: https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx/build
+Creator: Tool: Zephyr SPDX builder
+Created: 2021-09-02T23:39:39Z
+
+ExternalDocumentRef: DocumentRef-app https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx/app SHA1: d2d3a2d45d4a8316d9359f070eb8865f812e0a27
+ExternalDocumentRef: DocumentRef-zephyr https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx/zephyr SHA1: 976b5fedb085058f6d4aa1137a6ef00963e63760
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-final
+
+##### Package: app
+
+PackageName: app
+SPDXID: SPDXRef-app
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: f5ef8b5132e14446d84b9ccf68ab1b2dd979f968
+
+Relationship: SPDXRef-app HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-app HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-app HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-app HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./app/libapp.a
+SPDXID: SPDXRef-File-libapp.a
+FileChecksum: SHA1: 70cbdf9c9bd48670e34c2740a99d4d98643113d2
+FileChecksum: SHA256: c615026ec5960e7060048cf2d4a132d721a9c8763ae3fba1cf2436bc797c905d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libapp.a GENERATED_FROM DocumentRef-app:SPDXRef-File-main.c
+
+FileName: ./zephyr/dev_handles.c
+SPDXID: SPDXRef-File-dev-handles.c
+FileChecksum: SHA1: 691c862ad985afbbebf77d75a2c6f207f0e1dceb
+FileChecksum: SHA256: 4c729c0c60e46765e18e7525e4e8c7232cd9812734cb245b058aa28dcdaa91ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/isr_tables.c
+SPDXID: SPDXRef-File-isr-tables.c
+FileChecksum: SHA1: 9f74e0e64877279d781981e98d578365fc0c24ae
+FileChecksum: SHA256: 3df78ab240be130c04c8d0e1cd88459379965e5b1410fb70eabcb45fcb0bfdfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/misc/generated/configs.c
+SPDXID: SPDXRef-File-configs.c
+FileChecksum: SHA1: c60b42223976d4f53778ce2429155e1e0825cda3
+FileChecksum: SHA256: fe87228e63b36ff0c62d66f5d2749d269c2e005d13418a49ac14a529c6ec12ca
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##### Package: arch__arm__core__aarch32
+
+PackageName: arch__arm__core__aarch32
+SPDXID: SPDXRef-arch--arm--core--aarch32
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 9307e4cda16efc458fe9e5d401232b0d1a08629d
+
+Relationship: SPDXRef-arch--arm--core--aarch32 HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32 HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32 HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32 HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/arch/arch/arm/core/aarch32/libarch__arm__core__aarch32.a
+SPDXID: SPDXRef-File-libarch--arm--core--aarch32.a
+FileChecksum: SHA1: b5eb69c681023647637850a1c0eda9a6d7b0ac25
+FileChecksum: SHA256: 3d36141b5b618169878835ea36d72ac10b096d6be10b02a5db7f27f649f5e492
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-swap.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-swap-helper.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-irq-manage.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-thread.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-cpu-idle.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fatal.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nmi.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nmi-on-reset.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-prep-c.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-isr-wrapper.S
+
+##### Package: arch__arm__core__aarch32__cortex_m
+
+PackageName: arch__arm__core__aarch32__cortex_m
+SPDXID: SPDXRef-arch--arm--core--aarch32--cortex-m
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 922b11a0882014ee7b5f39af33ca81c73417c9b7
+
+Relationship: SPDXRef-arch--arm--core--aarch32--cortex-m HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--cortex-m HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--cortex-m HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--cortex-m HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/arch/arch/arm/core/aarch32/cortex_m/libarch__arm__core__aarch32__cortex_m.a
+SPDXID: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a
+FileChecksum: SHA1: 0f83b34dab46feacf1c7d9def34589ee6445fe42
+FileChecksum: SHA256: 8e3541b34f9fca165e57fc6cbe9706ec6395fbd22214d8ac661e39fa3ef05995
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-vector-table.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-reset.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fault-s.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fault.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-exc-exit.S
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-scb.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-irq-init.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-thread-abort.c
+
+##### Package: arch__arm__core__aarch32__mpu
+
+PackageName: arch__arm__core__aarch32__mpu
+SPDXID: SPDXRef-arch--arm--core--aarch32--mpu
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 496f65c94335af37b9e06c6b7940b90421dfbce1
+
+Relationship: SPDXRef-arch--arm--core--aarch32--mpu HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--mpu HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--mpu HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-arch--arm--core--aarch32--mpu HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/arch/arch/arm/core/aarch32/mpu/libarch__arm__core__aarch32__mpu.a
+SPDXID: SPDXRef-File-libarch--arm--core--aarch32--mpu.a
+FileChecksum: SHA1: 286b04535caead889a0b661f6338b38c0b8820fa
+FileChecksum: SHA256: 4e7a73c6bf5e9a3ceed12d7bb378863745378a3def803bd225ec4289276e161b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--mpu.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-arm-core-mpu.c
+Relationship: SPDXRef-File-libarch--arm--core--aarch32--mpu.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-arm-mpu.c
+
+##### Package: arch__common
+
+PackageName: arch__common
+SPDXID: SPDXRef-arch--common
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 4af0ea8d69fa8641a43ff423e9f4f3fa7260cbe8
+
+Relationship: SPDXRef-arch--common HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-arch--common HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-arch--common HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-arch--common HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+Relationship: SPDXRef-arch--common HAS_PREREQUISITE SPDXRef-isr-tables
+
+FileName: ./zephyr/arch/common/libarch__common.a
+SPDXID: SPDXRef-File-libarch--common.a
+FileChecksum: SHA1: 2ea2d7bba689975f80fba449cb9c8851731f6608
+FileChecksum: SHA256: 0ce443e01a0453c2eceb471ddee95c723fe86fd3ce8295a7d9ee54415c43a793
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libarch--common.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sw-isr-common.c
+Relationship: SPDXRef-File-libarch--common.a STATIC_LINK SPDXRef-File-libisr-tables.a
+
+##### Package: asm
+
+PackageName: asm
+SPDXID: SPDXRef-asm
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: attach
+
+PackageName: attach
+SPDXID: SPDXRef-attach
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: bintools
+
+PackageName: bintools
+SPDXID: SPDXRef-bintools
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: boards
+
+PackageName: boards
+SPDXID: SPDXRef-boards
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: boards__arm__reel_board
+
+PackageName: boards__arm__reel_board
+SPDXID: SPDXRef-boards--arm--reel-board
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: be1460fd08f7bd16e77693d63b211687ce370689
+
+Relationship: SPDXRef-boards--arm--reel-board HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-boards--arm--reel-board HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-boards--arm--reel-board HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-boards--arm--reel-board HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/boards/arm/reel_board/libboards__arm__reel_board.a
+SPDXID: SPDXRef-File-libboards--arm--reel-board.a
+FileChecksum: SHA1: 81e6b5c090cdc823ea58e2171250185fe73ad0d7
+FileChecksum: SHA256: bd2ed4d3f1131ce71c459e6e960b55f8c79bda1578bdaf4576a7066a030e43c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libboards--arm--reel-board.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-board.c
+
+##### Package: code_data_relocation_target
+
+PackageName: code_data_relocation_target
+SPDXID: SPDXRef-code-data-relocation-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: compiler
+
+PackageName: compiler
+SPDXID: SPDXRef-compiler
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: compiler-cpp
+
+PackageName: compiler-cpp
+SPDXID: SPDXRef-compiler-cpp
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: config-twister
+
+PackageName: config-twister
+SPDXID: SPDXRef-config-twister
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: debug
+
+PackageName: debug
+SPDXID: SPDXRef-debug
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: debugserver
+
+PackageName: debugserver
+SPDXID: SPDXRef-debugserver
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: driver_validation_h_target
+
+PackageName: driver_validation_h_target
+SPDXID: SPDXRef-driver-validation-h-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-driver-validation-h-target HAS_PREREQUISITE SPDXRef-parse-syscalls-target
+
+##### Package: drivers__gpio
+
+PackageName: drivers__gpio
+SPDXID: SPDXRef-drivers--gpio
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 020bc505b87ea78b27a54a384b21ae94b2713f1c
+
+Relationship: SPDXRef-drivers--gpio HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-drivers--gpio HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-drivers--gpio HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-drivers--gpio HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/drivers/gpio/libdrivers__gpio.a
+SPDXID: SPDXRef-File-libdrivers--gpio.a
+FileChecksum: SHA1: 0bc8c9d316be7d1ae3d38156fc59d9b85649bc07
+FileChecksum: SHA256: 5238d09018882632ff0e529709e81594ceab013681818401e35646b1da4bb679
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libdrivers--gpio.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-gpio-nrfx.c
+
+##### Package: drivers__i2c
+
+PackageName: drivers__i2c
+SPDXID: SPDXRef-drivers--i2c
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 5adea6bdb22db55892205b0fd7a895160a2dbd3d
+
+Relationship: SPDXRef-drivers--i2c HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-drivers--i2c HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-drivers--i2c HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-drivers--i2c HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/drivers/i2c/libdrivers__i2c.a
+SPDXID: SPDXRef-File-libdrivers--i2c.a
+FileChecksum: SHA1: bb9132fed5da232b2fc8a6a1aa70a69858156a5c
+FileChecksum: SHA256: 0f1119646ef759071a122f69d2c963cde6695412d10e6386fc5f98c5a8556f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libdrivers--i2c.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-i2c-common.c
+Relationship: SPDXRef-File-libdrivers--i2c.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-i2c-nrfx-twim.c
+
+##### Package: drivers__serial
+
+PackageName: drivers__serial
+SPDXID: SPDXRef-drivers--serial
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 3e9f902f16722e4333635abaccdf657af86710cb
+
+Relationship: SPDXRef-drivers--serial HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-drivers--serial HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-drivers--serial HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-drivers--serial HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/drivers/serial/libdrivers__serial.a
+SPDXID: SPDXRef-File-libdrivers--serial.a
+FileChecksum: SHA1: 1f98aab93d22ccbf519bb63dceefb5b2d3b0442f
+FileChecksum: SHA256: cd57159bbf6acf6ecacdef18a09cd2b43ee4e1278a7bdaa7c2cb5e55e97b1a69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libdrivers--serial.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-uart-nrfx-uart.c
+Relationship: SPDXRef-File-libdrivers--serial.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-uart-nrfx-uarte.c
+
+##### Package: flash
+
+PackageName: flash
+SPDXID: SPDXRef-flash
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: guiconfig
+
+PackageName: guiconfig
+SPDXID: SPDXRef-guiconfig
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hardenconfig
+
+PackageName: hardenconfig
+SPDXID: SPDXRef-hardenconfig
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: isr_tables
+
+PackageName: isr_tables
+SPDXID: SPDXRef-isr-tables
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: c6f42006f6f981b3ef3fe36ee4537efa8f696826
+
+Relationship: SPDXRef-isr-tables HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-isr-tables HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-isr-tables HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-isr-tables HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/arch/common/libisr_tables.a
+SPDXID: SPDXRef-File-libisr-tables.a
+FileChecksum: SHA1: 4bdaaf2891586c169384f264eaff2e110dede643
+FileChecksum: SHA256: 6c57c1fd8842f8e1f7648b23ff5086cee969390916faef43e92a9529474e8b91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libisr-tables.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-isr-tables.c
+
+##### Package: kernel
+
+PackageName: kernel
+SPDXID: SPDXRef-kernel
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 13280c1e6c8eb73f4cd315e6be7823e1ccd8248b
+
+Relationship: SPDXRef-kernel HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-kernel HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-kernel HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-kernel HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/kernel/libkernel.a
+SPDXID: SPDXRef-File-libkernel.a
+FileChecksum: SHA1: bae0e14b1bd72c89bb075adfd52ac562fa930696
+FileChecksum: SHA256: ec1337a71a62539d6c9b5237a8a66917f8c67ad2227067795e02412809369b19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-banner.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-device.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-errno.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fatal.c-2
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-init.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-kheap.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-mem-slab.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-thread.c-2
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-version.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-idle.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-mailbox.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-msg-q.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-mutex.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-pipes.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-queue.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sem.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-stack.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-system-work-q.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-work.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sched.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-condvar.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-xip.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-timeout.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-timer.c
+Relationship: SPDXRef-File-libkernel.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-mempool.c
+
+##### Package: kobj_types_h_target
+
+PackageName: kobj_types_h_target
+SPDXID: SPDXRef-kobj-types-h-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-kobj-types-h-target HAS_PREREQUISITE SPDXRef-parse-syscalls-target
+
+##### Package: lib__libc__minimal
+
+PackageName: lib__libc__minimal
+SPDXID: SPDXRef-lib--libc--minimal
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: be57adb8cf53883e913e99cc5ab82dcbbeb05ed4
+
+Relationship: SPDXRef-lib--libc--minimal HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-lib--libc--minimal HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-lib--libc--minimal HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-lib--libc--minimal HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/lib/libc/minimal/liblib__libc__minimal.a
+SPDXID: SPDXRef-File-liblib--libc--minimal.a
+FileChecksum: SHA1: 11a142fe124cba8061dcc4ad3cd61bee8172e555
+FileChecksum: SHA256: e6f6b59d1af5d5732688771a650418bee00b4222b960a83a039697f67d41d7da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-abort.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-atoi.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-strtol.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-strtoul.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-malloc.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-bsearch.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-exit.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-strncasecmp.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-strstr.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-string.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-strspn.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-stdout-console.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sprintf.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fprintf.c
+Relationship: SPDXRef-File-liblib--libc--minimal.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-gmtime.c
+
+##### Package: lib__posix
+
+PackageName: lib__posix
+SPDXID: SPDXRef-lib--posix
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: a340b6c8662c516166281a7c77c5c5d5225bbca9
+
+Relationship: SPDXRef-lib--posix HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-lib--posix HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-lib--posix HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-lib--posix HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/lib/posix/liblib__posix.a
+SPDXID: SPDXRef-File-liblib--posix.a
+FileChecksum: SHA1: f6aa47214f8a86194d4faaa256c30272f5a84fae
+FileChecksum: SHA256: adc61da75e13999b77482ebf393b15839aef7e21a74138bb1062b501797a4da1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-liblib--posix.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-pthread-common.c
+Relationship: SPDXRef-File-liblib--posix.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nanosleep.c
+
+##### Package: linker
+
+PackageName: linker
+SPDXID: SPDXRef-linker
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: linker_zephyr_final_script_target
+
+PackageName: linker_zephyr_final_script_target
+SPDXID: SPDXRef-linker-zephyr-final-script-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-linker-zephyr-final-script-target HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+Relationship: SPDXRef-linker-zephyr-final-script-target HAS_PREREQUISITE SPDXRef-zephyr-prebuilt
+
+##### Package: linker_zephyr_prebuilt_script_target
+
+PackageName: linker_zephyr_prebuilt_script_target
+SPDXID: SPDXRef-linker-zephyr-prebuilt-script-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-linker-zephyr-prebuilt-script-target HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+##### Package: menuconfig
+
+PackageName: menuconfig
+SPDXID: SPDXRef-menuconfig
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: modules__hal_nordic__nrfx
+
+PackageName: modules__hal_nordic__nrfx
+SPDXID: SPDXRef-modules--hal-nordic--nrfx
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: e4a36c0752443e070de2030845b5ece8c48925e3
+
+Relationship: SPDXRef-modules--hal-nordic--nrfx HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-modules--hal-nordic--nrfx HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-modules--hal-nordic--nrfx HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-modules--hal-nordic--nrfx HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a
+SPDXID: SPDXRef-File-libmodules--hal-nordic--nrfx.a
+FileChecksum: SHA1: 364e4f09097ef582a7dacbe83c81d8b26c0f27a3
+FileChecksum: SHA256: ae8fff9f87f1b3e921a45b234fd7e9267ff7c24003722cfd303f05c215820e8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-system-nrf52840.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-glue.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-clock.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-gpiote.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-ppi.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-twim.c
+Relationship: SPDXRef-File-libmodules--hal-nordic--nrfx.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrfx-twi-twim.c
+
+##### Package: offsets
+
+PackageName: offsets
+SPDXID: SPDXRef-offsets
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: a3a9915d64465a037c63518577552f780796fc3c
+
+Relationship: SPDXRef-offsets HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-offsets HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-offsets HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+
+FileName: ./zephyr/CMakeFiles/offsets.dir/arch/arm/core/offsets/offsets.c.obj
+SPDXID: SPDXRef-File-
+FileChecksum: SHA1: a9852dd26b57bc87b9ea65d6f38b3648fe42a222
+FileChecksum: SHA256: 46e02524e1a5ddd89b1dce03aaade773e50215262215b88390e66282d9012ec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File- GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-offsets.c
+
+##### Package: offsets_h
+
+PackageName: offsets_h
+SPDXID: SPDXRef-offsets-h
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-offsets-h HAS_PREREQUISITE SPDXRef-offsets
+
+##### Package: parse_syscalls_target
+
+PackageName: parse_syscalls_target
+SPDXID: SPDXRef-parse-syscalls-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: pristine
+
+PackageName: pristine
+SPDXID: SPDXRef-pristine
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: ram_report
+
+PackageName: ram_report
+SPDXID: SPDXRef-ram-report
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-ram-report HAS_PREREQUISITE SPDXRef-zephyr-final
+
+##### Package: rom_report
+
+PackageName: rom_report
+SPDXID: SPDXRef-rom-report
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-rom-report HAS_PREREQUISITE SPDXRef-zephyr-final
+
+##### Package: run
+
+PackageName: run
+SPDXID: SPDXRef-run
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: runners_yaml_props_target
+
+PackageName: runners_yaml_props_target
+SPDXID: SPDXRef-runners-yaml-props-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: shields
+
+PackageName: shields
+SPDXID: SPDXRef-shields
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: soc__arm__common__cortex_m
+
+PackageName: soc__arm__common__cortex_m
+SPDXID: SPDXRef-soc--arm--common--cortex-m
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: b8b0c3d6154d2c2f204a9350e93e46d779cd70e8
+
+Relationship: SPDXRef-soc--arm--common--cortex-m HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-soc--arm--common--cortex-m HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-soc--arm--common--cortex-m HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-soc--arm--common--cortex-m HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a
+SPDXID: SPDXRef-File-libsoc--arm--common--cortex-m.a
+FileChecksum: SHA1: bc5880171a92ef389715a5dcab6da2f4795c992e
+FileChecksum: SHA256: 903f4b9fdfd3a91c3af1500353d3c9302bfc19eae05d7cfc9a8eefb7d61f5c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libsoc--arm--common--cortex-m.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-arm-mpu-regions.c
+
+##### Package: soc__arm__nordic_nrf__nrf52
+
+PackageName: soc__arm__nordic_nrf__nrf52
+SPDXID: SPDXRef-soc--arm--nordic-nrf--nrf52
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: fcd66fa872c08b1620a31a61d05bd322281cb3fd
+
+Relationship: SPDXRef-soc--arm--nordic-nrf--nrf52 HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-soc--arm--nordic-nrf--nrf52 HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-soc--arm--nordic-nrf--nrf52 HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-soc--arm--nordic-nrf--nrf52 HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/soc/arm/nordic_nrf/nrf52/libsoc__arm__nordic_nrf__nrf52.a
+SPDXID: SPDXRef-File-libsoc--arm--nordic-nrf--nrf52.a
+FileChecksum: SHA1: 5a6e7933a9e01265e3d6a455d94a3258d5b8c6a7
+FileChecksum: SHA256: 649d6ddce2df2f94b96813e66adab139e0a89fae8dfb8a87b0be0e1d2871c100
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libsoc--arm--nordic-nrf--nrf52.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-soc.c
+Relationship: SPDXRef-File-libsoc--arm--nordic-nrf--nrf52.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-power.c
+
+##### Package: syscall_list_h_target
+
+PackageName: syscall_list_h_target
+SPDXID: SPDXRef-syscall-list-h-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-syscall-list-h-target HAS_PREREQUISITE SPDXRef-parse-syscalls-target
+
+##### Package: usage
+
+PackageName: usage
+SPDXID: SPDXRef-usage
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: zephyr
+
+PackageName: zephyr
+SPDXID: SPDXRef-zephyr
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 0a0368035297027dd718296a723f5a0628e7b129
+
+Relationship: SPDXRef-zephyr HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-zephyr HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-zephyr HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-zephyr HAS_PREREQUISITE SPDXRef-zephyr-generated-headers
+
+FileName: ./zephyr/libzephyr.a
+SPDXID: SPDXRef-File-libzephyr.a
+FileChecksum: SHA1: 7db47bab9acd2f86113e91ac67a59783c6c742ae
+FileChecksum: SHA256: 30ecb1b611fa0de06d83ccc57151cf17b7fdad67556387b360805c4945b15650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-cbprintf.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-cbprintf-packaged.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-crc32c-sw.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-crc32-sw.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-crc16-sw.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-crc8-sw.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-crc7-sw.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-dec.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-fdtable.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-hex.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-notify.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-printk.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-onoff.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-rb.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sem.c-2
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-thread-entry.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-timeutil.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-heap.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-heap-validate.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-bitarray.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-cbprintf-complete.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM SPDXRef-File-configs.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-validate-base-addresses.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-validate-enabled-instances.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-power.c-2
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-pm-ctrl.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-policy-residency.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-tracing-none.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-uart-console.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-clock-control-nrf.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-sys-clock-init.c
+Relationship: SPDXRef-File-libzephyr.a GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-nrf-rtc-timer.c
+
+##### Package: zephyr_final
+
+PackageName: zephyr_final
+SPDXID: SPDXRef-zephyr-final
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 536587bc4b06f79f6dfa3a03a20f776d92cdce90
+
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-app
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-zephyr
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-linker-zephyr-final-script-target
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-zephyr-prebuilt
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-isr-tables
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-arch--common
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32--cortex-m
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32--mpu
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-lib--libc--minimal
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-lib--posix
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-soc--arm--common--cortex-m
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-soc--arm--nordic-nrf--nrf52
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-boards--arm--reel-board
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-drivers--gpio
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-drivers--i2c
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-drivers--serial
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-modules--hal-nordic--nrfx
+Relationship: SPDXRef-zephyr-final HAS_PREREQUISITE SPDXRef-kernel
+
+FileName: ./zephyr/zephyr.elf
+SPDXID: SPDXRef-File-zephyr.elf
+FileChecksum: SHA1: 96fa4de534c3444f8610411cf8b3b49090d97a6f
+FileChecksum: SHA256: 7fac8efc2cbb7c000fe9fa3517d31f31344ebfb0106cf05f337a35d7c00ff1e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-zephyr.elf GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-empty-file.c
+Relationship: SPDXRef-File-zephyr.elf GENERATED_FROM SPDXRef-File-isr-tables.c
+Relationship: SPDXRef-File-zephyr.elf GENERATED_FROM SPDXRef-File-dev-handles.c
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libapp.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libzephyr.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-zephyr-prebuilt.elf
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libisr-tables.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libarch--common.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32--mpu.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-liblib--libc--minimal.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-liblib--posix.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libsoc--arm--common--cortex-m.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libsoc--arm--nordic-nrf--nrf52.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libboards--arm--reel-board.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libdrivers--gpio.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libdrivers--i2c.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libdrivers--serial.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libmodules--hal-nordic--nrfx.a
+Relationship: SPDXRef-File-zephyr.elf STATIC_LINK SPDXRef-File-libkernel.a
+
+##### Package: zephyr_generated_headers
+
+PackageName: zephyr_generated_headers
+SPDXID: SPDXRef-zephyr-generated-headers
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+Relationship: SPDXRef-zephyr-generated-headers HAS_PREREQUISITE SPDXRef-offsets-h
+
+##### Package: zephyr_prebuilt
+
+PackageName: zephyr_prebuilt
+SPDXID: SPDXRef-zephyr-prebuilt
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 29d6ac588a5b0036bdbdd68751ab9caaa74d5274
+
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-app
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-syscall-list-h-target
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-zephyr
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-driver-validation-h-target
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-kobj-types-h-target
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-offsets
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-linker-zephyr-prebuilt-script-target
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-isr-tables
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-arch--common
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32--cortex-m
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-arch--arm--core--aarch32--mpu
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-lib--libc--minimal
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-lib--posix
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-soc--arm--common--cortex-m
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-soc--arm--nordic-nrf--nrf52
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-boards--arm--reel-board
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-drivers--gpio
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-drivers--i2c
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-drivers--serial
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-modules--hal-nordic--nrfx
+Relationship: SPDXRef-zephyr-prebuilt HAS_PREREQUISITE SPDXRef-kernel
+
+FileName: ./zephyr/zephyr_prebuilt.elf
+SPDXID: SPDXRef-File-zephyr-prebuilt.elf
+FileChecksum: SHA1: 9226e89562cbde520ae2c86fae9beff10c8585d3
+FileChecksum: SHA256: 9bc0f6278ca2c0c8ffd3b790c6a60ed7edc70662d8759c4bbad24fea08bdd3eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-File-zephyr-prebuilt.elf GENERATED_FROM DocumentRef-zephyr:SPDXRef-File-empty-file.c
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libapp.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libzephyr.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libisr-tables.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libarch--common.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32--cortex-m.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libarch--arm--core--aarch32--mpu.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-liblib--libc--minimal.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-liblib--posix.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libsoc--arm--common--cortex-m.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libsoc--arm--nordic-nrf--nrf52.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libboards--arm--reel-board.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libdrivers--gpio.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libdrivers--i2c.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libdrivers--serial.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libmodules--hal-nordic--nrfx.a
+Relationship: SPDXRef-File-zephyr-prebuilt.elf STATIC_LINK SPDXRef-File-libkernel.a
+
+##### Package: zephyr_property_target
+
+PackageName: zephyr_property_target
+SPDXID: SPDXRef-zephyr-property-target
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+

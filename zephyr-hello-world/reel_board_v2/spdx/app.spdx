@@ -1,0 +1,30 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: app-sources
+DocumentNamespace: https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx/app
+Creator: Tool: Zephyr SPDX builder
+Created: 2021-09-02T23:39:39Z
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-app-sources
+
+##### Package: app-sources
+
+PackageName: app-sources
+SPDXID: SPDXRef-app-sources
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: dd65b9c310ac9506b5c242ec65fdb3f4e47de65e
+
+FileName: ./src/main.c
+SPDXID: SPDXRef-File-main.c
+FileChecksum: SHA1: 42ec6def920d00148712b0021f3a2eb5f2721a10
+FileChecksum: SHA256: 4421041a62b6525af2ea10960d9441cbe533adf8c20d204cdb1000287f427d58
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+

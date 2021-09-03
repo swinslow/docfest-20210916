@@ -1,0 +1,928 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: zephyr-sources
+DocumentNamespace: https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx/zephyr
+Creator: Tool: Zephyr SPDX builder
+Created: 2021-09-02T23:39:39Z
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
+
+##### Package: zephyr-sources
+
+PackageName: zephyr-sources
+SPDXID: SPDXRef-zephyr-sources
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: Apache-2.0 AND BSD-4-Clause-UC AND MIT
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-4-Clause-UC
+PackageLicenseInfoFromFiles: MIT
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 8972b62aba2e025e6700a5a4053c6b9204d6d88e
+
+FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c
+SPDXID: SPDXRef-File-nrfx-clock.c
+FileChecksum: SHA1: 3aa7ff32cb8fbc56f7725bf7f35b260aa0f2231f
+FileChecksum: SHA256: 0408e229e4097758d881e731523985faab2cea71b5fb21724625bfbd9b5cf80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c
+SPDXID: SPDXRef-File-nrfx-gpiote.c
+FileChecksum: SHA1: 10805a155a0b026db796396561f7ccd21ce790e2
+FileChecksum: SHA256: 10fb6250903b619d55542a3e4562e19ef5302a3b51a323bd141d52d7fe911c12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c
+SPDXID: SPDXRef-File-nrfx-ppi.c
+FileChecksum: SHA1: e72acb230e1f8bf74bf337cf5d881c796fa46650
+FileChecksum: SHA256: 3bdf3d3d28bfdc5923afb7e1b94436607116092c76ca98d3f79f3759a17fa570
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_twi_twim.c
+SPDXID: SPDXRef-File-nrfx-twi-twim.c
+FileChecksum: SHA1: 2d42c297bcdddbd765b0f57859fdf8e541a4ffe6
+FileChecksum: SHA256: 77ce7f376e2eb4cbac8752a9ce968c43b9c366abb02dfd2170f92ef0b106b050
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_twim.c
+SPDXID: SPDXRef-File-nrfx-twim.c
+FileChecksum: SHA1: e2ff68c0766b121fc1b4a9fcd24cdafbdff6d554
+FileChecksum: SHA256: 687dfcd6cc0c572a21d90081e661d24db8ccda9686d9e3f6fb0a5d476d82b755
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./modules/hal/nordic/nrfx/mdk/system_nrf52840.c
+SPDXID: SPDXRef-File-system-nrf52840.c
+FileChecksum: SHA1: 8082106251e6af7fd9323ffc9d59cf5b58499f8d
+FileChecksum: SHA256: 62593508316d0ece1743ce43bdab8097c71726fdf3a75775f4c734f54cb11c8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/exc_exit.S
+SPDXID: SPDXRef-File-exc-exit.S
+FileChecksum: SHA1: 380c4d4848a790fab057663fc16c2d6ec4e947b4
+FileChecksum: SHA256: 126fd4869f3030922e4601ab588a5217a0bc32b68f6d55a4e478e6cd1f76a6a8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/fault.c
+SPDXID: SPDXRef-File-fault.c
+FileChecksum: SHA1: 8087a1216ef8c4494c6b26ec71911f86175a670a
+FileChecksum: SHA256: 2aaa301ce097c82e4e8d4a925bc910a53e09bd3c177af5cd3325a03b22dfe967
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/fault_s.S
+SPDXID: SPDXRef-File-fault-s.S
+FileChecksum: SHA1: 4d55954342460c71140c8b76ee04b4f1d6a3bfb0
+FileChecksum: SHA256: 025c06d95771afc2796c45efe94c4b09534ec90d0464bd78fb4edfad47b49995
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/irq_init.c
+SPDXID: SPDXRef-File-irq-init.c
+FileChecksum: SHA1: 2799a96ead319d4d4d053e467041d34bb85dbf85
+FileChecksum: SHA256: 62c35db8010c28ce3d977f1c689370e82f6b36cb044a4b306a73147fbf04037f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/reset.S
+SPDXID: SPDXRef-File-reset.S
+FileChecksum: SHA1: 4111ceb65d313bb443bdab96554c2aa8fdd9d90d
+FileChecksum: SHA256: 6ad5a4031dc99abd38933fdefe1d16d5eb530686b5d3c6fb517038156e3b09de
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/scb.c
+SPDXID: SPDXRef-File-scb.c
+FileChecksum: SHA1: 0a163a023ad48115a8f1802a293366268c04952e
+FileChecksum: SHA256: fd4f233e826e7b9e40a845c56f946c2ea57cd8e5f5fcd70b30f6975adf553fd3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/thread_abort.c
+SPDXID: SPDXRef-File-thread-abort.c
+FileChecksum: SHA1: 3154b2af6d3aceff4f6dbc6fff226dcbe6ab7f7b
+FileChecksum: SHA256: 4b9b4fa879d2d60e77b758a3a5353d07400f358860365b9c9d5666f69a9facf6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cortex_m/vector_table.S
+SPDXID: SPDXRef-File-vector-table.S
+FileChecksum: SHA1: acb271a0856ac9e44efeebd305462ab85b978a33
+FileChecksum: SHA256: 87cd0b07ac3b397dcd72b80fafa6424a476a75da055bc4359bb5d6453b63771d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/cpu_idle.S
+SPDXID: SPDXRef-File-cpu-idle.S
+FileChecksum: SHA1: f750a8241512a4264877b75d2cd48d25196bd8fb
+FileChecksum: SHA256: dafcaf33098a5946055dc925e5ab89af38b58cc017a34d12747e405d383566ae
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/fatal.c
+SPDXID: SPDXRef-File-fatal.c
+FileChecksum: SHA1: 47d5f7fc4fdd361bb936df51c2d8bdc5f8aa8484
+FileChecksum: SHA256: d39e2949f278a302005c2d72a5b648bb3867eb3f95bfc8fb28e71ba77c00754c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/irq_manage.c
+SPDXID: SPDXRef-File-irq-manage.c
+FileChecksum: SHA1: 4f6a259d8b55604fec7abfc3dff064e7a495bf77
+FileChecksum: SHA256: a699bf0c953c0cac52cee931d9d9caf8f4c6a3f8e9f7b6e3010d03ca819639e1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/isr_wrapper.S
+SPDXID: SPDXRef-File-isr-wrapper.S
+FileChecksum: SHA1: 9fb3d9f7a893cdb3e1bcd0e87eedcc53d3775f4b
+FileChecksum: SHA256: a83026e38ce1639771144f45c6bdbd4a4dac7368c951941caabc468871c0026c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/mpu/arm_core_mpu.c
+SPDXID: SPDXRef-File-arm-core-mpu.c
+FileChecksum: SHA1: 43895e11fa94bca84a1f8a5d1e008e3af519713c
+FileChecksum: SHA256: a99ad7dcc2edaab6c6801800833c167878b1dc68e43ab49f0c33d3966381cb52
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/mpu/arm_mpu.c
+SPDXID: SPDXRef-File-arm-mpu.c
+FileChecksum: SHA1: 9f1279dccc77b65249612cf016505b9c442c952b
+FileChecksum: SHA256: efe35c527b536ba3ab13c45f55666da778688512b414bd78b3b4ee2a3f29d770
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/nmi.c
+SPDXID: SPDXRef-File-nmi.c
+FileChecksum: SHA1: 8832a1795c41e8d289b564993098009b941c0729
+FileChecksum: SHA256: 49d936a94cf4dccbff04e02bb17bc45d9cfa822eb0f517948587f10fe013aee0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/nmi_on_reset.S
+SPDXID: SPDXRef-File-nmi-on-reset.S
+FileChecksum: SHA1: eb548facff6d4ae7624162e14b4e5d68b6a3fc80
+FileChecksum: SHA256: 78b8d922fc0e090bd6691ba926535ee9d151348bc9f0e430f806c47a60047b98
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/prep_c.c
+SPDXID: SPDXRef-File-prep-c.c
+FileChecksum: SHA1: bc6b097826776286068c00d7c2e2c859ac2a1657
+FileChecksum: SHA256: c1dc2f6f81bb73f634fc077c9b74ffd3617a68271a5dd3103e823e3051e3d38c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/swap.c
+SPDXID: SPDXRef-File-swap.c
+FileChecksum: SHA1: 301cdd8009de3b8c7afb006f0eecc23a1f4ba9f2
+FileChecksum: SHA256: be11e825c9a78d55e596fab3d29fc614eddc31484cf1ed50184d65aaf0eb0aa7
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/swap_helper.S
+SPDXID: SPDXRef-File-swap-helper.S
+FileChecksum: SHA1: 6b2deb35420261b6a35fa16309d4570bfcead02c
+FileChecksum: SHA256: 2abbe03ec2c43e47bf82b01c3386c6946251a3a5e9837a0efceb350509604ce6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/aarch32/thread.c
+SPDXID: SPDXRef-File-thread.c
+FileChecksum: SHA1: d6b3402cff20367b0c0eedfe485583efe29a5320
+FileChecksum: SHA256: 513a3339c23b4b8019370234544e67e283695ad72effd9a941a58902b8537c6b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/arm/core/offsets/offsets.c
+SPDXID: SPDXRef-File-offsets.c
+FileChecksum: SHA1: 177f696ca0e4a0ea3493d513a04f4980ebfc00fe
+FileChecksum: SHA256: 187ae52b0c651f4030463161d50b55af702112c9199c4f1c901384dfe5f115d9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/common/isr_tables.c
+SPDXID: SPDXRef-File-isr-tables.c
+FileChecksum: SHA1: 1801ef5422b4f67a4ea93964362fc85b6658b0c2
+FileChecksum: SHA256: fc9fb3bb5e9495db122eede79a96afd8775ce9ef4e3ab8e6f67571aba8085b1c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/common/sw_isr_common.c
+SPDXID: SPDXRef-File-sw-isr-common.c
+FileChecksum: SHA1: 296278d742b98b575cf163ebc22de68a75b39bcd
+FileChecksum: SHA256: f0733f76622db8c6353af1a7bce42b384fc7030bef1c240d5acfbef3af337ef6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/boards/arm/reel_board/board.c
+SPDXID: SPDXRef-File-board.c
+FileChecksum: SHA1: 18ecdd098252b2c927f6277b6f3fd7d3cd0933b3
+FileChecksum: SHA256: 19aa40a3a21e2e7f6974d59488d5529051f94ca31e1de785311bd525d56198b3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/clock_control/clock_control_nrf.c
+SPDXID: SPDXRef-File-clock-control-nrf.c
+FileChecksum: SHA1: 577e017dc73fb33670167f7aeae84ac4a5a27114
+FileChecksum: SHA256: d7764f92d74b63525a5d1b4645d4ba10cccf853189ca5b2a4e5e25df797a4c7c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/console/uart_console.c
+SPDXID: SPDXRef-File-uart-console.c
+FileChecksum: SHA1: ac665698f63b44e1d14f42594e308f44a41a2ac4
+FileChecksum: SHA256: 27ea1708b9b7bc004911a1f35a2a56d768ae93e52d45a69b3911049f4db5e3f5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/gpio/gpio_nrfx.c
+SPDXID: SPDXRef-File-gpio-nrfx.c
+FileChecksum: SHA1: 972de289cf341361d451644c41889fff88ee4c88
+FileChecksum: SHA256: da5609733d4367a3daad40f60a4366774927a9940e63dbaa71ab8ba680550751
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/i2c/i2c_common.c
+SPDXID: SPDXRef-File-i2c-common.c
+FileChecksum: SHA1: d980f17255a2d407bca67226854f66ee19c2763d
+FileChecksum: SHA256: ab7780af40bd548f10c33184e88a1b84be02d52e4ee2ebf563e573f424f3f320
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/i2c/i2c_nrfx_twim.c
+SPDXID: SPDXRef-File-i2c-nrfx-twim.c
+FileChecksum: SHA1: 347b670cbc62be462ae1b8e5399ed7781d546985
+FileChecksum: SHA256: 9426a800928258c106a64ca763b6ceaf62f04d75ade099d3f29e1356a5fd6015
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/serial/uart_nrfx_uart.c
+SPDXID: SPDXRef-File-uart-nrfx-uart.c
+FileChecksum: SHA1: 4dd43dfc7c1042dcc0bc18a79c142b966caa4adc
+FileChecksum: SHA256: 489f49101a91838dee40fcb16aac9d04788814ca1afb3bcb0ea19522cbee5751
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/serial/uart_nrfx_uarte.c
+SPDXID: SPDXRef-File-uart-nrfx-uarte.c
+FileChecksum: SHA1: dc32ef29815c51ddac74f03840281a98f331642d
+FileChecksum: SHA256: e0d0bb192ca6a37c598ddbdc8bbce85a14ce75adfc53db1ca284dc62f876014a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/timer/nrf_rtc_timer.c
+SPDXID: SPDXRef-File-nrf-rtc-timer.c
+FileChecksum: SHA1: 1da441eace264255ea287c033864172482ad97f6
+FileChecksum: SHA256: f1732eddaa19f4356bbeffc43159719cda8b55e1044459793ea787fba37ecd1e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/timer/sys_clock_init.c
+SPDXID: SPDXRef-File-sys-clock-init.c
+FileChecksum: SHA1: f99d9c458a3eea9fc0e7efc4286505981a4d7620
+FileChecksum: SHA256: be654d31f4707fbc0ec5aee9175205e895874ecc602819bc880626f56c5da613
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/banner.c
+SPDXID: SPDXRef-File-banner.c
+FileChecksum: SHA1: 908747eaa641d06bb841265aa58e6c8fc808ce8d
+FileChecksum: SHA256: 5180861322c480452c41f722fe3a4312bba5561779c3cc48caf02f0fd1a904a6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/condvar.c
+SPDXID: SPDXRef-File-condvar.c
+FileChecksum: SHA1: 69aca4a6c6e259dbfaf0ce783df45cfd79741613
+FileChecksum: SHA256: 7168b8311cc6ba6fe0afdfa9ea1c2fe9703848613305ba923a74d6931662861a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/device.c
+SPDXID: SPDXRef-File-device.c
+FileChecksum: SHA1: cc19ab67eff33a72f78113116be0330f5a89d82e
+FileChecksum: SHA256: 44bf4a4d9825b8262fa16d07643ec9d4b096a9262b1c2dea1e37fe0535c66b44
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/errno.c
+SPDXID: SPDXRef-File-errno.c
+FileChecksum: SHA1: 1ecf73ef3f9ff636468d896dfa7524d71e104cdf
+FileChecksum: SHA256: 08a37510c314f7c4c590cb2441d085a1fecf7e359a16523a8935a18afcd7c377
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/fatal.c
+SPDXID: SPDXRef-File-fatal.c-2
+FileChecksum: SHA1: 01ed2a408da956c95607d4fd8042aca3c205c18c
+FileChecksum: SHA256: 7b1c548926a02da87b0d23bac617815945a3a972c282edc78cd9dfa4e61783f1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/idle.c
+SPDXID: SPDXRef-File-idle.c
+FileChecksum: SHA1: 9a13f6b1c5a258120fd0960c97de996f82e3bf2b
+FileChecksum: SHA256: 8509d185341b577a21ed5245eeb7a365c2da735b42fced0dee2ef889f9123af0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/init.c
+SPDXID: SPDXRef-File-init.c
+FileChecksum: SHA1: 2f34cc04d7dbb39340c5fefdaeacdf30e951d22c
+FileChecksum: SHA256: e86b78496fbe266856be28bccf371e2d882292f12f77311a90bab4cc1aa4d99c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/kheap.c
+SPDXID: SPDXRef-File-kheap.c
+FileChecksum: SHA1: 2a3457afa2abc9a7308b4d8f4b22a0b201cbde83
+FileChecksum: SHA256: 96b4240ab408a78cee30918e83fb5cdcd6657058c9b8549897cf62576c4a3176
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mailbox.c
+SPDXID: SPDXRef-File-mailbox.c
+FileChecksum: SHA1: b44be59e44559337f6fa4af08a7be2c8b4b2df8b
+FileChecksum: SHA256: ac25d31c8bab8852cf20c23291aa8b59fac8fc9e84eaf11ebdc0dfa265fe85a6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mem_slab.c
+SPDXID: SPDXRef-File-mem-slab.c
+FileChecksum: SHA1: 1ed7b19563715af8c7eb0cc66bea3ae6b6537021
+FileChecksum: SHA256: e97c974497c3e6a8980efb56a3383d05a69f9b066b674b1cd7728b6195917f3b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mempool.c
+SPDXID: SPDXRef-File-mempool.c
+FileChecksum: SHA1: 2f08aa1b59f5bd709dfc91175bf4ab868dd6a99d
+FileChecksum: SHA256: 81e478b047094dac37d033a1d4d3e4b0a10cd1db2b7df60a84fe8d7516007d7f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/msg_q.c
+SPDXID: SPDXRef-File-msg-q.c
+FileChecksum: SHA1: 35e0a2ab91ba669806b9bcf984c8d988e007060c
+FileChecksum: SHA256: 057ce7120a542a930bcd3b25a04ae3dff72373fafb5ead8f4b3b8a919cccc278
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mutex.c
+SPDXID: SPDXRef-File-mutex.c
+FileChecksum: SHA1: fa06c503a2ffc7a03959a95d017152f56237920f
+FileChecksum: SHA256: a2e9656c89f0d016bcde773b195bc8fe0d3ac557e6a74a6e4a6a6a5c598b0ed5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/pipes.c
+SPDXID: SPDXRef-File-pipes.c
+FileChecksum: SHA1: 3665dcaccd544c0519ab9ca844417591949d9c44
+FileChecksum: SHA256: ab878f5707e7af5050b2f7faee40af18ca712cff0c77d720f1db4dfd3272b88b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/queue.c
+SPDXID: SPDXRef-File-queue.c
+FileChecksum: SHA1: bb2398600a976a94c0d15aa2618baa93e75437e0
+FileChecksum: SHA256: af0c53b4d5770fc4603f8fbdd65268556131c06310aed4c0c2782f85eeadb129
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/sched.c
+SPDXID: SPDXRef-File-sched.c
+FileChecksum: SHA1: a46c4144ab9a51f9a2ec5130605563fd679ed622
+FileChecksum: SHA256: 2dd25c66c0549adb0977c27d786cbc09657570eb129c2d2b6eb3224d5cf973a2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/sem.c
+SPDXID: SPDXRef-File-sem.c
+FileChecksum: SHA1: 97dc257d524b53d8a855541dd0a0f42d79e6a46f
+FileChecksum: SHA256: ad0ca5e9c8bf0615b37433007e12ef6be15f1bc8010537db8f9650d86059bb8d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/stack.c
+SPDXID: SPDXRef-File-stack.c
+FileChecksum: SHA1: 144c34f6637a654925682bc933fe48b2476cc2c7
+FileChecksum: SHA256: aa92feebcb919b44999b696d3c037dbb889587fe4ac915a836019797e9779a0f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/system_work_q.c
+SPDXID: SPDXRef-File-system-work-q.c
+FileChecksum: SHA1: 02e4fcd8856caba8aa8c9f8cc10c7d4886996bd0
+FileChecksum: SHA256: 64bd033511cd6648586c2bec8d4790865fd3076c75c73b085bbc55872153b1fc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/thread.c
+SPDXID: SPDXRef-File-thread.c-2
+FileChecksum: SHA1: 985a944bc9ec1994909dcb9706778b7753805803
+FileChecksum: SHA256: 8954b1faac614d5c5038fa70f5d5f58212e80797cc70f93d356f37dadcdc599b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/timeout.c
+SPDXID: SPDXRef-File-timeout.c
+FileChecksum: SHA1: ee88a1fa0ce661ca94110c664efd69d11505e1bc
+FileChecksum: SHA256: f58b89b74fa19f1f51f253a58e3f397c32ef3b487a19a995d4f0290a38b749c1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/timer.c
+SPDXID: SPDXRef-File-timer.c
+FileChecksum: SHA1: 21d1bedec92ace25f6ddda4d3dbee6085af07f1e
+FileChecksum: SHA256: 5b318e4a92db8c02fd27e3cc06f17a4a70268ba57fe41a4d4f55d1969c0cf388
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/version.c
+SPDXID: SPDXRef-File-version.c
+FileChecksum: SHA1: 809dd44807821b51259e9053a54197206f58d19b
+FileChecksum: SHA256: bba0de403e813195c17e42fe8f759984849dbc2409f9876a0ff0524b6551327c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/work.c
+SPDXID: SPDXRef-File-work.c
+FileChecksum: SHA1: 9e10c7cd33edda8d677bfebc6e518bb9cfbacf5e
+FileChecksum: SHA256: f9b2f32c0da4b3068bc5ba2ef1599f6db23d16b66f699f928e08a3c5bec923f7
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/xip.c
+SPDXID: SPDXRef-File-xip.c
+FileChecksum: SHA1: c97165228d924b477cf89d81326ed677a9f86ebd
+FileChecksum: SHA256: e102ace489b665d6405e79cc5a510cab6d01729b8e0d3615a26c39c1dd3c66cf
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/abort.c
+SPDXID: SPDXRef-File-abort.c
+FileChecksum: SHA1: 7e96f3c04db6dc181d3006e1ab8601fbc13a437c
+FileChecksum: SHA256: 0c70ef7d30686a6bcdd31f5c710c7004077816d5c8d463eedd9c8f8babb40e47
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/atoi.c
+SPDXID: SPDXRef-File-atoi.c
+FileChecksum: SHA1: 05e8b44418a2168a04404aabd73ac43470251d03
+FileChecksum: SHA256: 7f771dd5c3cb9e8c703f3a94da1dc6994467f5a778994f0fa1b625c541558eea
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/bsearch.c
+SPDXID: SPDXRef-File-bsearch.c
+FileChecksum: SHA1: 58276a6d3fb8a3ee7f08abb29d306a75822e9980
+FileChecksum: SHA256: ca21a31e86d4c5f5d9a3a27dfa55961e950e56f45ef2a394c2d9d8c096c0cc35
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/exit.c
+SPDXID: SPDXRef-File-exit.c
+FileChecksum: SHA1: be457551309f4639031dbe1e504d63c72d5f3471
+FileChecksum: SHA256: eeddd4f506d685ac6fe263b7208c098f317dd68c2f03dbdfc9604fc97875354d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/malloc.c
+SPDXID: SPDXRef-File-malloc.c
+FileChecksum: SHA1: bfd37517b7ee56e0b3b28d373b3c403e1e8abd33
+FileChecksum: SHA256: 121a24637af3d2b155a65f9e51c777aa0ac3f5ebcc0f7a80c5c0b65b81a2cf9c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/strtol.c
+SPDXID: SPDXRef-File-strtol.c
+FileChecksum: SHA1: 07326ef1d340665461ddd2a4b5e3c791a0895998
+FileChecksum: SHA256: 5ea47d0b6f3a12bf184f4eb79239275917b4b1e66ff2552f8153a42eac9f7560
+LicenseConcluded: BSD-4-Clause-UC
+LicenseInfoInFile: BSD-4-Clause-UC
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdlib/strtoul.c
+SPDXID: SPDXRef-File-strtoul.c
+FileChecksum: SHA1: 75625bf655bf8d8300be44ebbc72d0a47b3ac02b
+FileChecksum: SHA256: dd9c22909ae9dd3b5aedb4cc3110059ce6c42c99a54033bf4b19743419d1a04e
+LicenseConcluded: BSD-4-Clause-UC
+LicenseInfoInFile: BSD-4-Clause-UC
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdout/fprintf.c
+SPDXID: SPDXRef-File-fprintf.c
+FileChecksum: SHA1: 1f6ba8b5d74b665bdad5f24c5e4a845faa56b9c5
+FileChecksum: SHA256: fbbc62f3897c858fddb4af787e22a2b129d9f67ed6e02c3dbb087da5b8c70725
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdout/sprintf.c
+SPDXID: SPDXRef-File-sprintf.c
+FileChecksum: SHA1: e6e647cedb13d19ca26f2fb8adb9eceb6a2d6f1a
+FileChecksum: SHA256: 4b0c763fc8b47adf5b7d87e5b3fa9600097de748b3bc4e9faa5de810d57d02d9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/stdout/stdout_console.c
+SPDXID: SPDXRef-File-stdout-console.c
+FileChecksum: SHA1: 12b7f4b402dff96ae9bd24a3a9eee6f633182a86
+FileChecksum: SHA256: 18220740e7fde2d049a06045a0c1a694b6fe05cc893f7ebaddb826475155c194
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/string/string.c
+SPDXID: SPDXRef-File-string.c
+FileChecksum: SHA1: f6489b5a90875e51f2008a9106168832fc7bbc29
+FileChecksum: SHA256: 9f702097548672a12090316490b8037a009186738a939c5917527c831430683f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/string/strncasecmp.c
+SPDXID: SPDXRef-File-strncasecmp.c
+FileChecksum: SHA1: c91c1cae7f3cacb12f535da985f2a0d9d723f687
+FileChecksum: SHA256: 5970070444595b88f49cab19a6c40ca25322948fc508e79e598b263e0410032f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/string/strspn.c
+SPDXID: SPDXRef-File-strspn.c
+FileChecksum: SHA1: 1c2615229c642587179305b000bae584533b64aa
+FileChecksum: SHA256: adeb339ba5b658185c81391f31173928a6a93baea9fa7c950bdd8db2f2275f9a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/string/strstr.c
+SPDXID: SPDXRef-File-strstr.c
+FileChecksum: SHA1: 577a7d51e559c2604aeb36f9b77b5a4823cd4bda
+FileChecksum: SHA256: cbf7d2b30e07c58c40cc777c964068ff228ceaa3a4afd4b9bf8c5a01660f1603
+LicenseConcluded: BSD-4-Clause-UC
+LicenseInfoInFile: BSD-4-Clause-UC
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/minimal/source/time/gmtime.c
+SPDXID: SPDXRef-File-gmtime.c
+FileChecksum: SHA1: 204b1b859922544ecdd3fd36d18aeaec0fe6e42d
+FileChecksum: SHA256: fe6526f0426b33aca73c55a48394525d7da8a86c010eebb738e0f02ba9f1662b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/bitarray.c
+SPDXID: SPDXRef-File-bitarray.c
+FileChecksum: SHA1: 4c2d0645ce616af4d241e88e81187c70595f11b6
+FileChecksum: SHA256: 499fffeb8ac1cfd2f8c1ecf053473a067c51ca6858f2f7ebef8a8b2695fbe9cf
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/cbprintf.c
+SPDXID: SPDXRef-File-cbprintf.c
+FileChecksum: SHA1: f0ce5a0810b61561d42cbc47f303cd2d47204680
+FileChecksum: SHA256: 12580c419e628411160ebcbb6c0c4ab53affe1295eb346ee2a5f28311224d980
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/cbprintf_complete.c
+SPDXID: SPDXRef-File-cbprintf-complete.c
+FileChecksum: SHA1: 88cb4e8c9d16f1c914805bfb46147d04798b6031
+FileChecksum: SHA256: a43add0ae3e56137f1f17a0889d4a390a658f6b2543b539997da2e7e4901ef06
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/cbprintf_packaged.c
+SPDXID: SPDXRef-File-cbprintf-packaged.c
+FileChecksum: SHA1: 1f22314f270d55a477f7bd87ce44111d5756faa3
+FileChecksum: SHA256: 6f972f616c2b625bc111cd53fd8f2f849756d6405f9d3387ff1688f34ee312d1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/crc16_sw.c
+SPDXID: SPDXRef-File-crc16-sw.c
+FileChecksum: SHA1: b3ebf368bf43c15a0b75c4823240846e5f89f11d
+FileChecksum: SHA256: 33a44bdf712aca0e6be15c9c86765aaef4b6374eec5851f584b560cb3bdef3c9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/crc32_sw.c
+SPDXID: SPDXRef-File-crc32-sw.c
+FileChecksum: SHA1: 3b53fd350075995b1ee33985d99048e153cfc2ed
+FileChecksum: SHA256: a246a1e345c7e29e3c32d1d4cabd2e2221c1fd2e100e43905a23a93dfb90b7d5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/crc32c_sw.c
+SPDXID: SPDXRef-File-crc32c-sw.c
+FileChecksum: SHA1: 8df664a322a7a4b17d2a0be2c306325cd1d8aee4
+FileChecksum: SHA256: 9724bb7c9e1f8402a5f438f067eefbc2412201c058d1f5f1e3b6785b653dc4dc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/crc7_sw.c
+SPDXID: SPDXRef-File-crc7-sw.c
+FileChecksum: SHA1: 7350f3e0093f7403b5941baaa6d62222778701bd
+FileChecksum: SHA256: 9377763f00bbac5367bd48d9ded7d89fdde48e2c57079f5ad085627583208569
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/crc8_sw.c
+SPDXID: SPDXRef-File-crc8-sw.c
+FileChecksum: SHA1: 60de0c26321b6b623fd55a6b8a19a9eeb8fec03a
+FileChecksum: SHA256: e6cd4d463aa7072b87df4aad5c166d6d7b3783e14752aab3e82f5f70ae1bb260
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/dec.c
+SPDXID: SPDXRef-File-dec.c
+FileChecksum: SHA1: 765853df46fd2192bd57179bd589fcbd410ff225
+FileChecksum: SHA256: 0cef99ecf403cc2c1691b3af4210f4fe7b593a0daa1560cc64bf50e0e2403839
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/fdtable.c
+SPDXID: SPDXRef-File-fdtable.c
+FileChecksum: SHA1: f71b130d431fd44345d30bdf5e54f3fdaa3fca59
+FileChecksum: SHA256: 5e2ffe53f654e4d21366228df27300a2d053ca4fcf877dc81bdbac744719134f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/heap-validate.c
+SPDXID: SPDXRef-File-heap-validate.c
+FileChecksum: SHA1: daa9952524861def284f49d4b476cb9daad18460
+FileChecksum: SHA256: b79bd1ef46f512fe387fdda54b16e1d449e5f5805e8ac7c8965c07b46b1cda01
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/heap.c
+SPDXID: SPDXRef-File-heap.c
+FileChecksum: SHA1: 78e613cf72fa40cdc469d02753d5c453dafa2562
+FileChecksum: SHA256: 9b63bc449473a930b10b0f78f52e15a850b9d077cca6579cf515f17a16403e75
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/hex.c
+SPDXID: SPDXRef-File-hex.c
+FileChecksum: SHA1: f04a013509bcae1bea093a80829b49ebd2cbb754
+FileChecksum: SHA256: 4f30d64ea6717d2ebd862deaee453dc25086125f869bccb9338fdf2b43dfec62
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/notify.c
+SPDXID: SPDXRef-File-notify.c
+FileChecksum: SHA1: 1d30db1b52ba017e2ed49d6fdcc8cca3ffe63c2e
+FileChecksum: SHA256: 17b97442003426bf053989fdcd8c0f2bbf6f3befc9eb909544f287a201efbc89
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/onoff.c
+SPDXID: SPDXRef-File-onoff.c
+FileChecksum: SHA1: 83542b0ab5f5f1f4a2565834aa17b3125d3c3eb5
+FileChecksum: SHA256: 2c8ecafd2abddc0bfed0cfaa91bbc4eecf3ae0560192ecd92e5b69d1d7973fcd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/printk.c
+SPDXID: SPDXRef-File-printk.c
+FileChecksum: SHA1: 943c9b51e9e6fa68d505d2451a7f6f24cf9d0416
+FileChecksum: SHA256: 28268c465e1b677420c3d0cafe5eb3b6640de198c885221c0e1b4069ec577c47
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/rb.c
+SPDXID: SPDXRef-File-rb.c
+FileChecksum: SHA1: 14059fc79368013190f2a4f913b54b7c7285efed
+FileChecksum: SHA256: 84303031a1a415b50f8d2a1f6537a4a14b77ac1bbfc88e208c2adae2af3a63b8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/sem.c
+SPDXID: SPDXRef-File-sem.c-2
+FileChecksum: SHA1: b6f955322650894754b561b68988713ce3ff9249
+FileChecksum: SHA256: 2b098bceb0c2f262730b81215ffc076214718514d74c0e2acfe6415e2f990795
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/thread_entry.c
+SPDXID: SPDXRef-File-thread-entry.c
+FileChecksum: SHA1: 751f11287ff05a857647547c03362483739ea081
+FileChecksum: SHA256: aaf443e54615c2c95fe2966d3019862d2e8ab139c919f02b1e3e53c1abdcbbce
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/timeutil.c
+SPDXID: SPDXRef-File-timeutil.c
+FileChecksum: SHA1: 20c428497dc791e117212bd41641a00dae46d16f
+FileChecksum: SHA256: 2a4aa0dae8ac866405757ed8a5955651c51ee9f36f230a75443145c6530332be
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/posix/nanosleep.c
+SPDXID: SPDXRef-File-nanosleep.c
+FileChecksum: SHA1: a3cde1090f8ae32adaedcbee57d6c573680699fe
+FileChecksum: SHA256: 1239c0d2224698fb366d600331fbd218a559304f088a15fecfad877a22977615
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/posix/pthread_common.c
+SPDXID: SPDXRef-File-pthread-common.c
+FileChecksum: SHA1: 0a086fa8e111ad59a5bace3af04b9665dce4c21b
+FileChecksum: SHA256: 7c242561fd38188b85f0993a0ff041ff6d6f0d602862a413409d726bdca434b6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/misc/empty_file.c
+SPDXID: SPDXRef-File-empty-file.c
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/modules/hal_nordic/nrfx/nrfx_glue.c
+SPDXID: SPDXRef-File-nrfx-glue.c
+FileChecksum: SHA1: 390cd6835d7a4bc9342cb4f348e62f51ecb11895
+FileChecksum: SHA256: 815b1665eb0395ba6a392cd58bb99d8187f947efc2914586ff4e1e4d8d33df92
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/soc/arm/common/cortex_m/arm_mpu_regions.c
+SPDXID: SPDXRef-File-arm-mpu-regions.c
+FileChecksum: SHA1: b56e9099e981e6c9d1f501c1b979e951001dcdc9
+FileChecksum: SHA256: 47638ed19a2db5b52a9a535cad42f969ea4516186af4b62a90039a88ef6f2bae
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/soc/arm/nordic_nrf/nrf52/power.c
+SPDXID: SPDXRef-File-power.c
+FileChecksum: SHA1: b419fee60a81bdaa81a442d486b12f7602e605f0
+FileChecksum: SHA256: 28cbd43bd64ed400c6b26bb8ebf2cd4ab087fe01254eac7cb58f8f8660f4d5bb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/soc/arm/nordic_nrf/nrf52/soc.c
+SPDXID: SPDXRef-File-soc.c
+FileChecksum: SHA1: 3c86643a2ac7fb0bfd03d8844af07673f8afc2af
+FileChecksum: SHA256: 713479d2ab7c5b2076c916755078b34bcd8386d20bc5f8d318ffea9752e4bbeb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/soc/arm/nordic_nrf/validate_base_addresses.c
+SPDXID: SPDXRef-File-validate-base-addresses.c
+FileChecksum: SHA1: a7fc90984a10faa06abaa2e926897631390451b7
+FileChecksum: SHA256: 1ebb14c979c8d9f424ff4b8e8446f5f9b91907ca8645cc52c31927f65adf2121
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/soc/arm/nordic_nrf/validate_enabled_instances.c
+SPDXID: SPDXRef-File-validate-enabled-instances.c
+FileChecksum: SHA1: 8ecf32c49a11012b013ff502bd05be2709cbcd1b
+FileChecksum: SHA256: 45931056d3752c627911fa6ac7d0836c870b7619f030f322f8c9750394c41fb2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/pm/pm_ctrl.c
+SPDXID: SPDXRef-File-pm-ctrl.c
+FileChecksum: SHA1: ebb4d5ea2d132685e4a29ab1e638110b9b24ce50
+FileChecksum: SHA256: 33a746d654c116e31fc70412380649518e18a83d9ba76515e3bcdba8cf9e89b0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/pm/policy/policy_residency.c
+SPDXID: SPDXRef-File-policy-residency.c
+FileChecksum: SHA1: fed57b48e89d391e9c858c059678cd99904c36f7
+FileChecksum: SHA256: 7dea9d23dc7b26adaf588fb98cda2bd2805c5c7494d50693a2a496f890b9d0ed
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/pm/power.c
+SPDXID: SPDXRef-File-power.c-2
+FileChecksum: SHA1: 1034905e5c5a5d7220298042c570c08808a16aba
+FileChecksum: SHA256: 90dd51c99dc3c7e368108e97d3aa4c0cf4ee3883ab36b34885d8c9c8d7bb0fe6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/tracing/tracing_none.c
+SPDXID: SPDXRef-File-tracing-none.c
+FileChecksum: SHA1: f7413ab937e945ad50e77a47211868874fcc5634
+FileChecksum: SHA256: a7684dbfa2982fddb6b42e35116c3619dbd089791a9b90a354ed4f6a94a97076
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+

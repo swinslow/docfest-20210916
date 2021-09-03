@@ -1,0 +1,38 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: sdk
+DocumentNamespace: https://swinslow.net/docfest-20210916/zephyr-hello-world-reel-board-v2/spdx-with-headers/sdk
+Creator: Tool: Zephyr SPDX builder
+Created: 2021-09-02T23:43:42Z
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-sdk
+
+##### Package: sdk
+
+PackageName: sdk
+SPDXID: SPDXRef-sdk
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NONE
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 2fffdab3102183a929ca1717c93cdf536818742d
+
+FileName: ./arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stdarg.h
+SPDXID: SPDXRef-File-stdarg.h
+FileChecksum: SHA1: 669dd3a568bd7c8b48dea2344d6851ae3326ee62
+FileChecksum: SHA256: f5c150e379cd71d5a924680a870f007ff8295e656f3f11a3fd28dfb971ee3999
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stddef.h
+SPDXID: SPDXRef-File-stddef.h
+FileChecksum: SHA1: b568ca33dace499eaf8da7a60f32019133a98217
+FileChecksum: SHA256: ae6110360a66cb2a1e1f2141925f70a4f5818b27a7de2b62a78503c3391b7eb6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
